@@ -1,4 +1,3 @@
-This GitHub account is intended to store relevant coding projects.
+GitHub Account of Kenneth James C. Mensis
 
-This account is currently owned and managed by
-MENSIS, Kenneth James C.
+This workspace serves as a storage for coding-related projects, currently only java projects but will probably contain other languages soon.
