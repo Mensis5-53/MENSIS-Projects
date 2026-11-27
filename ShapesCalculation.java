@@ -65,18 +65,18 @@ public class MENSIS1 {
             
             switch (choice2) {
                 case 1:
-                    System.out.println("Enter value for Base: ");
+                    System.out.print("Enter value for Base: ");
                     base = scan.nextDouble();
-                    System.out.println("Enter value for Height: ");
+                    System.out.print("Enter value for Height: ");
                     height = scan.nextDouble();
                     result = shape.triangleArea(base, height);
                     break;
                 case 2:
-                    System.out.println("Enter value for side A: ");
+                    System.out.print("Enter value for side A: ");
                     sideA = scan.nextDouble();
-                    System.out.println("Enter value for side B: ");
+                    System.out.print("Enter value for side B: ");
                     sideB = scan.nextDouble();
-                    System.out.println("Enter value for side C: ");
+                    System.out.print("Enter value for side C: ");
                     sideC = scan.nextDouble();
                     result = shape.trianglePerimeter(sideA, sideB, sideC);
                     break;
@@ -117,16 +117,16 @@ public class MENSIS1 {
             
             switch (choice2) {
                 case 1:
-                    System.out.println("Enter value for Base: ");
+                    System.out.print("Enter value for Base: ");
                     base = scan.nextDouble();
-                    System.out.println("Enter value for Height: ");
+                    System.out.print("Enter value for Height: ");
                     height = scan.nextDouble();
                     result = shape.rectangleArea(base, height);
                     break;
                 case 2:
-                    System.out.println("Enter value for Base: ");
+                    System.out.print("Enter value for Base: ");
                     base = scan.nextDouble();
-                    System.out.println("Enter value for Height: ");
+                    System.out.print("Enter value for Height: ");
                     height = scan.nextDouble();
                     result = shape.rectanglePerimeter(base, height);
                     break;
@@ -145,16 +145,16 @@ public class MENSIS1 {
             
             switch (choice2) {
                 case 1:
-                    System.out.println("Enter value for Base: ");
+                    System.out.print("Enter value for Base: ");
                     base = scan.nextDouble();
-                    System.out.println("Enter value for Height: ");
+                    System.out.print("Enter value for Height: ");
                     height = scan.nextDouble();
                     result = shape.parallelogramArea(base, height);
                     break;
                 case 2:
-                    System.out.println("Enter value for side A: ");
+                    System.out.print("Enter value for side A: ");
                     sideA = scan.nextDouble();
-                    System.out.println("Enter value for side B: ");
+                    System.out.print("Enter value for side B: ");
                     sideB = scan.nextDouble();
                     result = shape.parallelogramPerimeter(sideA, sideB);
                     break;
